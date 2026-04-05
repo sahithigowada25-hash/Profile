@@ -1,0 +1,114 @@
+:root {
+  --brand: #6f42c1;
+  --brand-dark: #2d1b69;
+  --surface: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 76px;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.navbar-brand {
+  letter-spacing: 0.2px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #2d1b69 0%, #6f42c1 55%, #8b5cf6 100%);
+  color: #fff;
+}
+
+.hero-card {
+  border-radius: 1.25rem;
+}
+
+.hero-image,
+.cert-image {
+  object-fit: cover;
+  height: 320px;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #1e293b, #4f46e5);
+  color: #fff;
+}
+
+.section-title {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.card-elevated {
+  border: 0;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+}
+
+.icon-circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef2ff;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 1.5rem;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.15);
+}
+
+.progress {
+  height: 0.9rem;
+  border-radius: 999px;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
+
+.text-purple {
+  color: var(--brand) !important;
+}
+
+.bg-purple {
+  background-color: var(--brand) !important;
+}
+
+.footer {
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+.footer-link {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  body {
+    padding-top: 72px;
+  }
+
+  .hero-image,
+  .cert-image {
+    height: 250px;
+  }
+}

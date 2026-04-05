@@ -1,0 +1,20 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c1" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#6F42C1"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="250" y1="150" x2="950" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="44" fill="url(#c1)"/>
+  <rect x="95" y="80" width="1010" height="540" rx="28" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="160" y="130" width="880" height="420" rx="24" fill="url(#c2)"/>
+  <circle cx="600" cy="250" r="88" fill="#6F42C1" opacity="0.12"/>
+  <path d="M600 180L626 229L680 237L641 274L651 328L600 301L549 328L559 274L520 237L574 229L600 180Z" fill="#F59E0B"/>
+  <text x="600" y="385" text-anchor="middle" fill="#111827" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700">Certificate Preview</text>
+  <text x="600" y="440" text-anchor="middle" fill="#475569" font-size="26" font-family="Arial, Helvetica, sans-serif">Bootstrap 5 • HTML5 • Responsive Design</text>
+</svg>
